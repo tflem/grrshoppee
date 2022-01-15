@@ -2,7 +2,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/38f303e1c141ae7c797a/maintainability)](https://codeclimate.com/github/tflem/grrshoppee/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/38f303e1c141ae7c797a/test_coverage)](https://codeclimate.com/github/tflem/grrshoppee/test_coverage)
 
-# The CCB Tracker
+# Grr . . . Shoppee
 
 > A newer and even more improved grocery product tracking application, developed with the following:
 
