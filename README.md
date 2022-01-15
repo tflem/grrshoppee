@@ -1,24 +1,46 @@
-# README
+![CCB Tracker workflow](https://github.com/tflem/ccb_tracker/actions/workflows/grrshoppee.yml/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/38f303e1c141ae7c797a/maintainability)](https://codeclimate.com/github/tflem/grrshoppee/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/38f303e1c141ae7c797a/test_coverage)](https://codeclimate.com/github/tflem/grrshoppee/test_coverage)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# The CCB Tracker
 
-Things you may want to cover:
+> A newer and even more improved grocery product tracking application, developed with the following:
 
-* Ruby version
+- CSS Framework: Pico CSS
+- Ruby on Rails 7.0.1
+- Ruby 3.1.0
+- HTML5 and Sass
+- PostgreSQL (Tested With Version 13.x)
+- Testing Framework: RSpec Rails
+- Code Bundler: Vite ⚡️ Ruby (2.7.12, 3.0.7)
+- Continuous Integration/Deployment: Github Actions/Heroku
 
-* System dependencies
+## Setup
 
-* Configuration
+How to run tests:
 
-* Database creation
+```
+% bundle exec rspec
+```
 
-* Database initialization
+How to run the development console:
 
-* How to run the test suite
+```
+% rails console or rails c for short
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+How to run the development server:
 
-* Deployment instructions
+```
+% rails server or rails s for short
+```
 
-* ...
+How to prepare (create and migrate) DB for `development` and `test` environments:
+
+```
+% rails db:create
+
+% rails db:migrate
+```
+
+The application is viewable at http://grrshoppee.herokuapp.com.
