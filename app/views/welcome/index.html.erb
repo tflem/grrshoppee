@@ -1,14 +1,18 @@
 <hgroup>
   <h1>Hello and Welcome to Grr . . . Shoppee!</h1>
-  <h2>A Ruby on Rails Grocery-Tracking Application That Allows You to Get In and Get Out</h2>
+  <h2>A Ruby on Rails Grocery App That Helps You Get In and Get Out the Grocery Stores</h2>
 </hgroup>
 
 <div class="flex-parent">
   <div class="flex-child">
-    <button>Add Products</button>
+    <button>
+      <%= link_to "Add Products", new_product_path %>
+    </button>
   </div>
   <div class="flex-child">
-    <button>View Products</button>
+    <button>
+      <%= link_to "View Products", products_path %>
+     </button>
   </div>
 </div>
 

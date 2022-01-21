@@ -1,0 +1,31 @@
+<h3>List of Products</h3>
+
+<table role="grid">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Quantity</th>
+      <th>Created</th>
+      <th>Edit</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do | product | %>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= product.quantity %></td>
+        <td>
+          <%= time_ago_in_words product.created_at %>
+          <%= " ago" %>
+        </td>      
+        <td class="text-center">
+          <%= button_to "Edit" %>
+        </td>
+        <td class="text-center">
+          <%= button_to "Delete" %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
