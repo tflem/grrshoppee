@@ -34,3 +34,12 @@ text-decoration: none;
 .flex-child {
   margin-right: 10px;
 }
+
+form.button_to {
+  width: 100%;
+}
+
+td.edit-button,
+td.delete-button {
+  padding-bottom: 0;
+}
