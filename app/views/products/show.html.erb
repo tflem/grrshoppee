@@ -3,20 +3,30 @@
 <table role="grid">
   <thead>
     <tr>
-      <th>ID Number</th>
-      <th>Product Name</th>
-      <th>Product Quantity</th>
+      <th>Name</th>
+      <th>Quantity</th>
       <th>Time Created</th>
+      <th>Add Products</th>
+      <th>View Products</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><%= @product.id %></td>
       <td><%= @product.name %></td>
       <td><%= @product.quantity %></td>
       <td>
         <%= time_ago_in_words @product.created_at %>
         <%= " ago" %>
+      </td>
+      <td>
+        <button>
+          <%= link_to "Add Products", new_product_path %>
+        </button>
+      </td>
+      <td>
+        <button>
+          <%= link_to "View Products", products_path %>
+        </button>
       </td>
     </tr>
   </tbody>

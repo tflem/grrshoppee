@@ -13,7 +13,7 @@
   <tbody>
     <% @products.each do | product | %>
       <tr>
-        <td><%= product.name %></td>
+        <td><%= link_to product.name, product %></td>
         <td><%= product.quantity %></td>
         <td>
           <%= time_ago_in_words product.created_at %>
@@ -29,3 +29,7 @@
     <% end %>
   </tbody>
 </table>
+
+<button>
+  <%= link_to "Add Products", new_product_path %>
+</button>
