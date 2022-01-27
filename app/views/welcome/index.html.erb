@@ -1,23 +1,47 @@
-<hgroup>
-  <h1>Hello and Welcome to Grr . . . Shoppee!</h1>
-  <h2>A Ruby on Rails Grocery App That Helps You Get In and Get Out the Grocery Stores</h2>
-</hgroup>
+<div class="wallpaper"></div>
+  <div class="content">
+  <aside class="side">
+  <figure class="picture">
+    <img id="pictureImage",
+         class="picture-image",
+         src="../grrshoppee/public/images/steaks.jpg",
+         srcset="images/steaks.jpg 1x,
+                 images/steaks@2x.jpg 2x,
+                 images/steaks@3x.jpg 3x",
+         height=320
+         width=320,
+         alt="Picture of Steaks, Bread, and Veggies" >
+  </figure>
+</aside>
+<main class="about">
+    Hello and Welcome to
+  <h1 class="app-name">
+    Grr . . . Shoppee!
+  </h1>
 
-<div class="flex-parent">
-  <div class="flex-child">
-    <button>
-      <%= link_to "Add Products", new_product_path %>
-    </button>
-  </div>
-  <div class="flex-child">
-    <button>
-      <%= link_to "View Products", products_path %>
-     </button>
-  </div>
+<div class="description">
+  <hr class="hr">
+  <p>
+    A Ruby on Rails Grocery-Tracking Application That Helps You Get
+    In and Get Out Of the Grocery Stores.
+  </p>
+  <div class="flex-lp-parent">
+    <div class="flex-lp-child">
+      <button>
+        <%= link_to "Add Products", new_product_path %>
+      </button>
+    </div>
+    <div class="flex-lp-child">
+      <button>
+        <%= link_to "View Products", products_path %>
+       </button>
+    </div>
 </div>
-
-<div class="flex-parent">
-  <a href="https://icons8.com/icon/118431/healthy-food-calories-calculator">
-    Healthy Food Calories Calculator icon by Icons8
-  </a>
+<div class="flex-lp-favicon">
+    <a href="https://icons8.com/icon/118431/healthy-food-calories-calculator"
+       target="_blank">
+      Healthy Food Calories Calculator icon by Icons8
+    </a>
+</div>
+</main>
 </div>

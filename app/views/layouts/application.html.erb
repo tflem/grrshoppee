@@ -6,17 +6,15 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= favicon_link_tag "icons8-healthy-food-calories-calculator-48.png"%>
+    <%= favicon_link_tag "icons8-healthy-food-calories-calculator-48.png" %>
     <%= vite_client_tag %>
     <%= vite_javascript_tag "application" %>
-
   </head>
 
   <body>
     <% flash.each do |key, message| %>
       <div><%= message %></div>
     <% end %>
-    <main class="container"></main>
     <%= yield %>
   </body>
 </html>
