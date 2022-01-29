@@ -2,12 +2,13 @@
   <div class="content">
   <aside class="side">
   <figure class="picture">
-    <img id="pictureImage",
-         class="picture-image",
-         src="images/steaks.jpg",
-         height=320
-         width=320,
-         alt="Picture of Steaks, Bread, and Veggies" >
+    <%= vite_image_tag("images/steaks.jpg",
+                        id: "pictureImage",
+                        class: "picture-image",
+                        src: "images/steaks.jpg",
+                        height: 320,
+                        width: 320,
+                        alt: "Picture of Steaks, Bread, and Veggies") %>
   </figure>
 </aside>
 <main class="container">
