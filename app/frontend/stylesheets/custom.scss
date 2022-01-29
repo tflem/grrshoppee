@@ -27,12 +27,7 @@ text-decoration: none;
 
 hr {
   background-color: #00897b;
-  border: none;
-  content: "";
   height: 2px;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
-  width: 26rem;
 }
 
 .app-name {
@@ -101,7 +96,7 @@ hr {
 }
 
 .about {
-  max-width: 26rem;
+  //max-width: 26rem;
 }
 
 form.button_to {
