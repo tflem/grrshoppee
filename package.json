@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "@picocss/pico": "^1.4.4",
-    "sass": "^1.49.8"
+    "sass": "^1.49.9"
   },
   "devDependencies": {
-    "vite": "^2.8.4",
+    "vite": "^2.8.6",
     "vite-plugin-full-reload": "^1.0.0",
     "vite-plugin-ruby": "^3.0.8"
   }
