@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html data-theme="dark">
   <head>
-    <title>Grr . . . Shoppee</title>
+    <title>
+      <% if content_for?(:show_title) %>
+        <%= yield :show_title %>
+      <% else %>
+        Grr . . . Shoppee
+      <% end %>
+    </title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
