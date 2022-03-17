@@ -12,14 +12,14 @@
   <tbody>
     <% @products.each do | product | %>
       <tr>
-        <td><%= link_to product.name, product %></td>
+        <td><%= link_to product.name.capitalize, product %></td>
         <td><%= product.quantity %></td>
         <td class="edit-button">
           <%= button_to "Edit" %>
         </td>
         <td class="delete-button">
           <%= button_to "Delete" %>
-        </td>          
+        </td>
       </tr>
     <% end %>
   </tbody>

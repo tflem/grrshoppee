@@ -1,3 +1,5 @@
 class Product < ApplicationRecord
-  validates :name, :quantity, presence: true
+  validates :name, presence: true,
+            uniqueness: { message: "already exists" }
+  validates :quantity, presence: true
 end
