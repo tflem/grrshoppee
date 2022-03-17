@@ -1,0 +1,147 @@
+@import "pico";
+
+/* Teal Dark scheme (Forced) */
+/* Enabled if forced with data-theme="dark" */
+[data-theme="dark"] {
+  --primary: #00897b;
+  --primary-hover: #009688;
+  --primary-focus: rgba(0, 137, 123, 0.25);
+  --primary-inverse: #FFF;
+}
+
+h3 {
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+form {
+  width: 50%;
+}
+
+a:link, a:visited {
+color: #FFF;
+text-decoration: none;
+}
+
+hr {
+  background-color: #00897b;
+  height: 2px;
+}
+
+.app-name {
+  font-size: 2.125rem;
+  line-height: 1.125;
+  margin-bottom: 1rem;
+}
+
+.flex-form-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-lp-parent {
+  display: flex;
+}
+
+.flex-lp-child {
+  margin-right: 0.75rem;
+}
+
+.flex-lp-favicon {
+  display: flex;
+  font-size: 0.75rem
+}
+
+// Shared
+.wallpaper,
+.picture-image {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+// Specific
+.wallpaper {
+  background-image: url("/images/produce.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  position: fixed;
+}
+
+.picture {
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.picture-image {
+  border-radius: 290486px;
+  position: absolute;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+.side {
+  max-height: 20rem;
+  max-width: 20rem;
+}
+
+form.button_to {
+  width: 100%;
+}
+
+td.edit-button,
+td.delete-button {
+  padding-bottom: 0;
+}
+
+// Mobile Screens
+@media screen and (max-width: 799px) {
+  .app-name {
+    font-size: 1.50rem;
+    line-height: 1.0;
+    margin-bottom: 0.5rem;
+  }
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 3rem;
+  }
+  .side {
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
+// Desktop Screens
+@media screen and (min-width: 800px) {
+  .content {
+    align-items: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    padding: 4rem;
+  }
+
+  .side {
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 20rem;
+    margin-left: 4rem;
+    order: 2;
+    width: 20rem;
+  }
+
+  .about {
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+}
+

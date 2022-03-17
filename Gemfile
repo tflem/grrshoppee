@@ -9,6 +9,7 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 5.6", ">= 5.6.2"
 gem "vite_rails"
 gem "sass-rails", "~> 6.0"
+gem "pico-rails", "~> 1.4", ">= 1.4.4"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 group :development, :test do
