@@ -18,6 +18,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "better_errors", "~> 2.9", ">= 2.9.1"
 end
 
 group :test do
