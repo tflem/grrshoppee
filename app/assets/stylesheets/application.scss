@@ -64,7 +64,7 @@ hr {
 
 // Specific
 .wallpaper {
-  background-image: url("/images/produce.jpg");
+  background-image: url("produce.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.1;
@@ -144,4 +144,3 @@ td.delete-button {
     flex-shrink: 1;
   }
 }
-
