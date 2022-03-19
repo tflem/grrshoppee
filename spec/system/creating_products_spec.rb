@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "Our users can create new products", type: :system do
+RSpec.describe "Users can add products", type: :system do
   before do
     @product = Product.create(name: "Milk", quantity: 2)
 
