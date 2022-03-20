@@ -2,10 +2,9 @@ require "rails_helper"
 
 RSpec.describe "Users can add products", type: :system do
   before do
-    @product = Product.create(name: "Milk", quantity: 2)
+    product = FactoryBot.create(:product, name: "Skim Milk")
 
     visit "/"
-
     click_link "Add Products"
   end
 
@@ -16,15 +15,15 @@ RSpec.describe "Users can add products", type: :system do
 
     expect(page).to have_content "Your product has been added."
 
-    product = Product.find_by!(name: "Chocolate Milk")
-    expect(page.current_path).to eq product_path(product)
+    choc_milk = Product.find_by!(name: "Chocolate Milk")
+    expect(page.current_path).to eq product_path(choc_milk)
 
     show_title = "Chocolate Milk - Products - Grr . . . Shoppee"
     expect(page).to have_title show_title
   end
 
   scenario "with name uniqueness" do
-    fill_in "Name", with: "Milk"
+    fill_in "Name", with: "Skim Milk"
     fill_in "Quantity", with: 2
     click_button "Create Product"
 
