@@ -1,0 +1,22 @@
+<div class="flex-form-parent">
+  <%= form_with(model: product, local: true) do |form| %>
+    <% if product.errors.any? %>
+      <div id="error_info">
+        <h4><%= pluralize(product.errors.count, "error") %>
+        kept this product from being added:</h4>
+        <ul>
+          <% product.errors.full_messages.each do |message|%>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+        <%= form.label :name %>
+        <%= form.text_field :name %>
+      <div>
+        <%= form.label :quantity %>
+        <%= form.text_field :quantity %>
+      </div>
+      <%= form.submit %>
+  <% end %>
+</div>
