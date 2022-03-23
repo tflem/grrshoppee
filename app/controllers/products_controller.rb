@@ -1,4 +1,6 @@
 class ProductsController < ApplicationController
+  before_action :set_product, only: %i[show edit update destroy]
+
   def index
     @products = Product.all
   end
@@ -20,16 +22,12 @@ class ProductsController < ApplicationController
   end
 
   def show
-    @product = Product.find(params[:id])
   end
 
   def edit
-    @product = Product.find(params[:id])
   end
 
   def update
-    @product = Product.find(params[:id])
-
     if @product.update(product_params)
       flash[:notice] = "Your product has been updated."
       redirect_to @product
@@ -40,14 +38,20 @@ class ProductsController < ApplicationController
   end
 
   def destroy
-    @product = Product.find(params[:id])
     @product.destroy
 
     flash[:notice] = "Your product has been deleted."
     redirect_to products_path
-  end    
+  end
 
   private
+
+  def set_product
+    @product = Product.find(params[:id])
+  rescue ActiveRecord::RecordNotFound
+    flash[:alert] = "The product you're trying to view does not exist."
+    redirect_to products_path
+  end
 
   def product_params
     params.require(:product).permit(:name, :quantity)
