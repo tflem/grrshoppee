@@ -4,7 +4,7 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Quantity</th>
+      <th class="qty-header">Quantity</th>
       <th>Edit</th>
       <th>Delete</th>
     </tr>
@@ -13,7 +13,7 @@
     <% @products.each do | product | %>
       <tr>
         <td><%= link_to product.name.titleize, product %></td>
-        <td><%= product.quantity %></td>
+        <td class="qty-col"><%= product.quantity %></td>
         <td class="edit-button">
           <%= button_to "Edit",
               edit_product_path(product),

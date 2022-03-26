@@ -97,8 +97,14 @@ form.button_to {
   width: 100%;
 }
 
+th.qty-header,
+td.qty-col {
+  text-align: center;
+}
+
 td.edit-button,
 td.delete-button {
+  padding-right: 0;
   padding-bottom: 0;
 }
 
