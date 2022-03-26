@@ -6,7 +6,7 @@ RSpec.describe "Users can delete products", type: :system do
 
     visit "/"
     click_link "View Products"
-    click_button "Delete"
+    click_button "Del"
 
     expect(page).to have_content "Your product has been deleted."
     expect(page.current_path).to eq products_path
