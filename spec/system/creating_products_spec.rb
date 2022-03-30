@@ -22,8 +22,8 @@ RSpec.describe "Users can add products", type: :system do
     expect(page).to have_title show_title
   end
 
-  scenario "with name uniqueness" do
-    fill_in "Name", with: "Skim Milk"
+  scenario "with name uniqueness" do    
+    fill_in "Name", with: "Skim milk"
     fill_in "Quantity", with: 2
     click_button "Create Product"
 
