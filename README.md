@@ -9,7 +9,7 @@
 - CSS Framework: Pico CSS 1.4.4
 - Ruby on Rails 7.0.2.3
 - Ruby 3.1.1
-- HTML5 and Sass 1.49.11
+- HTML5 and Sass 1.50.0
 - PostgreSQL (Tested With Version 13.x)
 - Testing Framework: RSpec Rails 5.1.1
 - Code Bundler: Vite ⚡️ Ruby (2.9.1, 3.0.9)
