@@ -7,7 +7,7 @@
 > A newer and even more improved grocery product tracking application, developed with the following:
 
 - CSS Framework: Pico CSS 1.4.4
-- Ruby on Rails 7.0.2.3
+- Ruby on Rails 7.0.2.4
 - Ruby 3.1.1
 - HTML5 and Sass 1.50.1
 - PostgreSQL (Tested With Version 14.x)
