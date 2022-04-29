@@ -3,10 +3,10 @@
     "node": "16.x"
   },
   "dependencies": {
-    "sass": "^1.50.1"
+    "sass": "^1.51.0"
   },
   "devDependencies": {
-    "vite": "^2.9.5",
+    "vite": "^2.9.6",
     "vite-plugin-full-reload": "^1.0.0",
     "vite-plugin-ruby": "^3.0.9"
   }
