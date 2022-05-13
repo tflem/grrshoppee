@@ -7,12 +7,12 @@
 > A newer and even more improved grocery product tracking application, developed with the following:
 
 - CSS Framework: Pico CSS 1.4.4
-- Ruby on Rails 7.0.2.4
+- Ruby on Rails 7.0.3
 - Ruby 3.1.2
 - HTML5 and Sass 1.51.0
 - PostgreSQL (Tested With Version 14.x)
 - Testing Framework: RSpec Rails 5.1.1
-- Code Bundler: Vite ⚡️ Ruby (2.9.8, 3.0.10)
+- Code Bundler: Vite ⚡️ Ruby (2.9.9, 3.0.11)
 - Continuous Integration/Deployment: Github Actions/Heroku
 
 ## Setup
