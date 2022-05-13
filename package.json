@@ -6,8 +6,8 @@
     "sass": "^1.51.0"
   },
   "devDependencies": {
-    "vite": "^2.9.8",
+    "vite": "^2.9.9",
     "vite-plugin-full-reload": "^1.0.0",
-    "vite-plugin-ruby": "^3.0.10"
+    "vite-plugin-ruby": "^3.0.11"
   }
 }
