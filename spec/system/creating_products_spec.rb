@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Users can add products", type: :system do
   before do
-    product = FactoryBot.create(:product, name: "Skim Milk")
+    FactoryBot.create(:product, name: "Skim Milk")
 
     visit "/"
     click_link "Add Products"
@@ -22,7 +22,7 @@ RSpec.describe "Users can add products", type: :system do
     expect(page).to have_title show_title
   end
 
-  scenario "with name uniqueness" do    
+  scenario "with name uniqueness" do
     fill_in "Name", with: "Skim milk"
     fill_in "Quantity", with: 2
     click_button "Create Product"
