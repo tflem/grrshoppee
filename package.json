@@ -3,7 +3,7 @@
     "node": "16.x"
   },
   "dependencies": {
-    "sass": "^1.54.0"
+    "sass": "^1.54.3"
   },
   "devDependencies": {
     "vite": "^3.0.4",
