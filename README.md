@@ -7,15 +7,15 @@
 
 > A newer and even more improved grocery product tracking application, developed with the following:
 
-- Linting: RuboCop by way of StandardRB 1.16.1
+- Linting: RuboCop by way of StandardRB 1.17.0
 - CSS Framework: Pico CSS 1.5.3
 - Ruby on Rails 7.0.4
 - Ruby 3.1.2
-- HTML5 and Sass 1.56.0
+- HTML5 and Sass 1.56.1
 - PostgreSQL (Tested With Version 14.x)
 - Testing Framework: RSpec Rails 5.1.2
-- Code Bundler: Vite ⚡️ Ruby (3.2.2, 3.1.2)
-- Continuous Integration/Deployment: Github Actions/Heroku
+- Code Bundler: Vite ⚡️ Ruby (3.2.3, 3.1.2)
+- Continuous Integration/Deployment: Github Actions/Digital Ocean
 
 ## Setup
 
@@ -45,4 +45,4 @@ How to prepare (create and migrate) DB for `development` and `test` environments
 % rails db:migrate
 ```
 
-The application is viewable at http://grrshoppee.herokuapp.com.
+The application is viewable at https://app.grrshoppee.teeflem.xyz.
