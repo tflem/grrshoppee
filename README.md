@@ -14,7 +14,7 @@
 - HTML5 and Sass 1.56.1
 - PostgreSQL (Tested With Version 14.x)
 - Testing Framework: RSpec Rails 5.1.2
-- Code Bundler: Vite ⚡️ Ruby (3.2.3, 3.1.2)
+- Code Bundler: Vite ⚡️ Ruby (3.2.4, 3.1.2)
 - Continuous Integration/Deployment: Github Actions/Digital Ocean
 
 ## Setup
