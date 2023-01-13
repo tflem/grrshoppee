@@ -7,7 +7,7 @@
 
 > A newer and even more improved grocery product tracking application, developed with the following:
 
-- Linting: RuboCop by way of StandardRB 1.20.0
+- Linting: RuboCop by way of StandardRB 1.21.1
 - CSS Framework: Pico CSS 1.5.3
 - Ruby on Rails 7.0.4
 - Ruby 3.1.2
