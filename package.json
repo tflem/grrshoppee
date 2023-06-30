@@ -1,6 +1,6 @@
 {
   "engine": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "dependencies": {
     "sass": "^1.63.6"
