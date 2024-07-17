@@ -5,16 +5,16 @@
 
 # Grr . . . Shoppee
 
-> A newer and even more improved grocery product tracking application, developed with the following:
+> A newer and even more improved grocery product tracking application, developed with the following: 
 
 - Linting: RuboCop by way of StandardRB 1.39.1
 - CSS Framework: Pico CSS 1.5.3
 - Ruby on Rails 7.1.3.4
 - Ruby 3.3.2
-- HTML5 and Sass 1.77.7
+- HTML5 and Sass 1.77.8
 - PostgreSQL (Tested With Version 16.x)
 - Testing Framework: RSpec Rails 6.1.3
-- Code Bundler: Vite ⚡️ Ruby (5.3.3, 5.0.0)
+- Code Bundler: Vite ⚡️ Ruby (5.3.4, 5.0.0)
 - Continuous Integration/Deployment: Github Actions/Digital Ocean
 
 ## Setup
