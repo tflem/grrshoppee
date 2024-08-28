@@ -9,11 +9,11 @@
 
 - Linting: RuboCop by way of StandardRB 1.40.0
 - CSS Framework: Pico CSS 1.5.3
-- Ruby on Rails 7.1.3.4
+- Ruby on Rails 7.1.4
 - Ruby 3.3.2
 - HTML5 and Sass 1.77.8
 - PostgreSQL (Tested With Version 16.x)
-- Testing Framework: RSpec Rails 6.1.3
+- Testing Framework: RSpec Rails 6.1.4
 - Code Bundler: Vite ⚡️ Ruby (5.4.2, 5.0.0)
 - Continuous Integration/Deployment: Github Actions/Digital Ocean
 
