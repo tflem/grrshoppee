@@ -26,7 +26,7 @@ end
 group :test do
   gem "capybara", "~> 3.36"
   gem "selenium-webdriver", "~> 4.1"
-  gem "webdrivers", "~> 5.0"
+  gem "webdrivers", "~> 5.3", ">= 5.3.1"
   gem "simplecov", "~> 0.21.2"
   gem "simplecov_json_formatter", "~> 0.1.3"
 end
