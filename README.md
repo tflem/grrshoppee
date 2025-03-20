@@ -7,14 +7,14 @@
 
 > A newer and even more improved grocery product tracking application, developed with the following: 
 
-- Linting: RuboCop by way of StandardRB 1.44.0
+- Linting: RuboCop by way of StandardRB 1.47.0
 - CSS Framework: Pico CSS 1.5.3
 - Ruby on Rails 7.1.5.1
-- Ruby 3.3.2
-- HTML5 and Sass 1.84.0
-- PostgreSQL (Tested With Version 16.x)
+- Ruby 3.4.2
+- HTML5 and Sass 1.86.0
+- PostgreSQL (Tested With Version 17.x)
 - Testing Framework: RSpec Rails 6.1.5
-- Code Bundler: Vite ⚡️ Ruby (6.2.0, 5.1.1)
+- Code Bundler: Vite ⚡️ Ruby (6.2.2, 5.1.1)
 - Continuous Integration/Deployment: Github Actions/Digital Ocean
 
 ## Setup
