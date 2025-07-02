@@ -9,7 +9,7 @@
 
 - Linting: RuboCop by way of StandardRB 1.50.0
 - CSS Framework: Pico CSS 1.5.3
-- Ruby on Rails 7.1.5.1
+- Ruby on Rails 7.2.2.1
 - Ruby 3.4.4
 - HTML5 and Sass 1.89.2
 - PostgreSQL (Tested With Version 17.x)
