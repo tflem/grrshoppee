@@ -36,7 +36,6 @@ jobs:
           gem install bundler
           bundle install
           bundle exec vite install
-
       - name: Setup Database
         run: |
           cp config/database.yml.github-actions config/database.yml
@@ -44,10 +43,9 @@ jobs:
         env:
           RAILS_ENV: test
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres      
-
+          POSTGRES_PASSWORD: postgres   
       - name: Run RSpec
-        run: COVERAGE=true bundle exec rspec  --require rails_helper
+        run: COVERAGE=true bundle exec rspec --require rails_helper
         env:
           RAILS_ENV: test
           POSTGRES_USER: postgres
