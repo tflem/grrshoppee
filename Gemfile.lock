@@ -96,9 +96,6 @@ GEM
     connection_pool (2.5.4)
     crass (1.0.6)
     date (3.5.0)
-    debug (1.11.0)
-      irb (~> 1.10)
-      reline (>= 0.3.8)
     diff-lcs (1.6.2)
     docile (1.4.1)
     drb (2.2.3)
@@ -355,7 +352,7 @@ DEPENDENCIES
   webdrivers (~> 5.3, >= 5.3.1)
 
 RUBY VERSION
-   ruby 3.4.7p58
+  ruby 3.4.7p58
 
 BUNDLED WITH
-   2.7.2
+  4.0.1

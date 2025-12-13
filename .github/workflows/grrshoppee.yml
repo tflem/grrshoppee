@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       postgres:
-        image: postgres:17.6
+        image: postgres:18.1
         ports:
           - 5432:5432
         env:
@@ -22,7 +22,7 @@ jobs:
           node-version: "22"
       - run: npm install
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -43,10 +43,10 @@ jobs:
         env:
           RAILS_ENV: test
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres 
+          POSTGRES_PASSWORD: postgres
       - name: Run RSpec
         run: COVERAGE=true bundle exec rspec --require rails_helper
         env:
           RAILS_ENV: test
           POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres    
+          POSTGRES_PASSWORD: postgres
