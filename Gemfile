@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.4.7"
+ruby "3.4.8"
 
 gem "rails", "~> 8.0.4"
 gem "sprockets-rails"
@@ -9,6 +9,7 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 6.4"
 gem "vite_rails"
 gem "sass-rails", "~> 6.0"
+gem "sassc", "~> 2.1.0"
 gem "pico-rails", "~> 1.4", ">= 1.4.4"
 gem "standard", group: [:development, :test]
 gem "tzinfo-data", "~> 1.2025", ">= 1.2025.2", platforms: :windows
